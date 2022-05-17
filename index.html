@@ -1,74 +1,100 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="null.css">
-        <link rel="stylesheet" href="fonts/TTLakes/stylesheet.css">
-        <link rel="stylesheet" href="main.css">
-        <meta charset="utf-8">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="fonts/TTLakes/stylesheet.css">
+    <link rel="stylesheet" href="null.css">
+    <title>Title</title>
+</head>
 <body>
-    <section class="page">
-        <header>
-            <nav class="header__inner">
-                <div class="header__first-points">
-                    <img src="/img/burger.svg">
-                    <img class="header__element-divider" src="/img/divider.svg">
-                    <img src="/img/Group.svg">
-                    <img class="header__element-divider2" src="/img/divider.svg">
+<div class="main-content">
+    <header>
+        <nav class="header__inner">
+            <div class="header__first_points">
+                <div class="header__elem1">
+                    <img src="img/burger.svg" alt="Иконка меню">
                 </div>
-                <div class="header__second-points">
-                    <img src="/img/call.svg">
-                    <img src="/img/chat.svg">
-                    <img src="/img/profile.svg">
-                    <img class="header__element-divider3" src="/img/divider.svg">
-                    <img src="/img/repair.svg">
-                    <img src="/img/checkstatus.svg">
+                <div class="header__divider">
+                    <img src="img/divider.svg" alt="Иконка меню">
                 </div>
-            </nav>
-        </header>
-        <main>
-            <section class="head__name">
-                <p>Услуги и сервисы</p>
-            </section>
-            <section class="micro__menu-container">
-                <ul class="micro__menu">
-                    <li class="micro__menu-active">
-                        <p>Ремонтируемые устройства</p>
-                    </li>
-                    <li>
-                        <p>Ремонтируемые бренды</p>
-                    </li>
-                    <li>
-                        <p>Цены на услуги</p>
-                    </li>
-                    <li>
-                        <p>Адреса сервисных центров</p>
-                    </li>
-                    <li>
-                        <p>Специальные цены</p>
-                    </li>
-                    <li>
-                        <p>Отзывы</p>
-                    </li>
-                </ul>
-            </section>
-                <section class="content__container">
-                    <div class="content__container-first">
-                    <p class="content__text-first">Мы являемся авторизованным сервисным центром по ремонту техники Dell.
-                         Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
-                         гарантией производителя.
-                         <p class="content__text-second">Мы успешно работаем с 1992 года и заслужили репутацию надежного
-                                партнера</p>
-                    <div class="content__btn">
-                        <img src="/img/expand.svg">
-                        <p>Читать далее</p>
-                    </div>
-                    </div>
-                    <a href="#"><img src="img/_MG_3223.jpg" alt="Главгая картинка"></a>
-                </section>
-        </main>
-        <footer>
-        </footer>
+                <div class="header__elem2">
+                    <img src="img/Group.svg" alt="Иконка меню">
+                </div>
+            </div>
+            <div class="header__second-points">
+                <div class="header__elem3" id="call">
+                    <img src="img/call.svg" alt="Иконка меню">
+                </div>
+                <div class="header__elem4">
+                    <img src="img/chat.svg" alt="Иконка меню">
+                </div>
+                <div class="header__elem5">
+                    <img src="img/profile.svg" alt="Иконка меню">
+                </div>
+                <div class="header__divider">
+                    <img src="img/divider.svg" alt="Иконка меню">
+                </div>
+                <div class="header__elem7">
+                    <p>Оставить заявку</p>
+                    <img src="img/repair.svg" alt="Иконка меню">
+                </div>
+                <div class="header__elem8">
+                    <p>Статус ремонта</p>
+                    <img src="img/checkstatus.svg" alt="Иконка меню">
+                </div>
+            </div>
+        </nav>
+        <div class="header__name">
+            <div class="header__nleft">
+                <img src="img/highlight.svg" alt="">
+            </div>
+            <div class="header__text">
+                <h1>Услуги и сервисы</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <ul class="micro-menu__container">
+                <li class="micro-menu--active">
+                    <p>Ремонтируемые устройства</p>
+                </li>
+                <li>
+                    <p>Дополнительные услуги</p>
+                </li>
+                <li>
+                    <p>Цены на услуги</p>
+                </li>
+                <li>
+                    <p>Адреса сервисных центров</p>
+                </li>
+                <li>
+                    <p>Специальные цены</p>
+                </li>
+                <li>
+                    <p>Отзывы</p>
+                </li>
+            </ul>
         </section>
+        <section class="content__container">
+            <div class="content-box">
+                <p class="text-1">
+                    Мы являемся авторизованным сервисным центром по ремонту техники Dell.
+                    Только у нас вы можете отремонтировать свой ноутбук Dell с официальной
+                    гарантией производителя.
+                    <span class="text-2"><br> Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<span class="text-3">, что подтверждает большое
+                            количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</span></span></p>
+                <div class="content__btn-next">
+                    <img src="/img/expand.svg" alt="next-btn">
+                    <a href="">Читать далее</a>
+                </div>
+            </div>
+            <div class="content-img">
+                <img src="/img/_MG_3223(3).jpg" alt="content-img">
+            </div>
+        </section>
+    </main>
+</div>
 </body>
 </html>
