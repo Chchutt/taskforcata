@@ -1,10 +1,13 @@
 body{
     padding:0;
     margin:0;
+    overflow: hidden;
 }
 .main-content{
     max-width: 1220px;
     font-family: "TT Lakes", serif;
+    background-color: #F8F8F8;
+    height: 650px;
 }
 .header__inner {
     min-height: 80px;
@@ -12,6 +15,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 10px;
+    background-color: #FFFFFF;
 }
 
 .header__name {
@@ -20,6 +24,7 @@ body{
     align-items: center;
     height: 40px;
     padding-left: 12px;
+
 }
 
 .header__first_points, .header__second-points {
@@ -88,11 +93,11 @@ ul {
     border: 2px solid #B8FFEC;
     border-radius: 6px;
 }
-.text-2,
-.text-3{
+.text__2,
+.text__3{
     display:none;
 }
-.content-box{
+.content__text{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -115,14 +120,14 @@ ul {
 .content__container{
     flex-basis: 100%;
 }
-.content-box{
+.content__text{
     flex-basis: 50%;
 }
-.content-img{
+.content__img{
     flex-basis:50%;
     max-height: 230px ;
 }
-.content-img img{
+.content__img img{
     width: 100%;
 }
 
@@ -130,6 +135,10 @@ ul {
 
 
 @media (min-width: 1220px){
+    header *,
+    .header__inner{
+        background-color: #F8F8F8;
+    }
     .header__name {
         top: 25px;
         position: absolute;
@@ -170,18 +179,19 @@ ul {
         flex-wrap: wrap;
         width: 1320px;
     }
-    .text-3{
+    .text__3{
         display: block;
     }
-    .content-img{
+    .content__img{
         max-height: 383px ;
         margin-right: 28px;
         margin-left: 38px;
+        background-color: #F8F8F8;
     }
-    .content-img img{
+    .content__img img{
         width: 100%;
     }
-    .text-3{
+    .text__3{
         display: inline;
     }
 }
@@ -213,15 +223,15 @@ ul {
         flex-wrap: nowrap;
 
     }
-    .text-2 {
+    .text__2 {
         display: block;
     }
-    .content-img{
+    .content__img{
         max-height: 260px ;
         margin-right: 25px;
         margin-left: 38px;
     }
-    .content-img img{
+    .content__img img{
         width: 100%;
     }
 }
