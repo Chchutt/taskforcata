@@ -67,7 +67,7 @@ body{
     overflow: scroll;
     align-items: center;
     padding: 0 0 0 16px;
-    width: 1320px;
+    width: 100%;
     margin: 24px 0 24px 0;
 }
 
@@ -87,7 +87,9 @@ ul {
     margin: 0;
     display: inline;
 }
-
+::-webkit-scrollbar{
+    width:0;
+}
 .micro-menu--active{
     border: 2px solid #B8FFEC;
     border-radius: 6px;
@@ -176,7 +178,7 @@ ul {
     }
     .micro-menu__container{
         flex-wrap: wrap;
-        width: 100%;
+        width: 1320px;
     }
     .text__3{
         display: block;
