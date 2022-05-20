@@ -67,7 +67,7 @@ body{
     overflow: scroll;
     align-items: center;
     padding: 0 0 0 16px;
-    width: 100%;
+    width: 1320px;
     margin: 24px 0 24px 0;
 }
 
@@ -176,7 +176,7 @@ ul {
     }
     .micro-menu__container{
         flex-wrap: wrap;
-        width: 1320px;
+        width: 100%;
     }
     .text__3{
         display: block;
