@@ -195,6 +195,10 @@ ul {
     .text__3{
         display: inline;
     }
+    .micro-menu-reviews{
+     justify-content: flex-start;
+        padding-left: 26px;
+    }
 }
 @media (min-width: 768px){
     .header__second-points {
